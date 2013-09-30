@@ -7,3 +7,6 @@ If valid, also prints card type (Visa, Mastercard, Discover, or AmEx)
 
 Credit card account numbers for testing:
    http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
+
+More about the Luhn Algorithm:
+   http://en.wikipedia.org/wiki/Luhn_algorithm
