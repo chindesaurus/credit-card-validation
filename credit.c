@@ -128,9 +128,9 @@ addDigits(int n) {
 void
 getInput(char *buffer) {
    
-    int length = 0;            // number of characters in buffer 
-    int capacity = MAX_LENGTH; // capacity of buffer 
-    int c;                     // character read
+    int length = 0;                 // number of characters in buffer 
+    int capacity = MAX_LENGTH + 1;  // capacity of buffer 
+    int c;                          // character read
     
     while ( (c = fgetc(stdin)) != '\n' && c != EOF) {
 
